@@ -10,7 +10,16 @@ Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 documentation for details.
 
-Here's more content that I wanted to add lol!
+Steps towards completion :
+   Figure out docstrings for Python scripts.
+   Figure out sphinx-rst methods for ReadTheDocs (splitting, structuring, grouping)
+      This step is a bit of 'play' to figure out your options on breaking things up easily.
+   Merge function docstrings into ReadTheDocs test environment
+   Get your current code into a dedicated github repo independent of the Notebooks
+      Tests to verify that everything is still functioning properly between updates
+   Add getTracesDffv2 to the codebase
+   Get DeepInterpolation 0.2.0 running on new workstations, benchmark.
+   Finalize access method (depends on swift OIT response, jumpbox or LinVPN)
 
 
 .. toctree::
